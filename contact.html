@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact Me</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Contact Me</h1>
+  <form action="#" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Your name" required><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Your email" required><br>
+
+    <label for="phone">Phone:</label><br>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Your number"required><br>
+
+    <label for="message">Comments:</label><br>
+    <textarea id="message" name="message" cols="60" rows="6" placeholder="Write comment" required></textarea><br>
+    
+    <p> <input type="reset" value="Click here to reset form" /></p>
+    <input type="submit" value="Submit">
+    
+  </form>
+</main>
+
+<footer>
+  &copy; 2025 Sahil Khan | Email: sahil.khan3@ontariotechu.net
+</footer>
+</body>
+</html>

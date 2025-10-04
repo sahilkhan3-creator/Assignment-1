@@ -52,13 +52,23 @@ h1, h2 {
 .button-label:hover { background: red; color: black; }
 
 /* Responsive Images */
-img, video {
-  max-width: 100%;
+img{
+ max-width: 50%;
   height: auto;
   display: block;
   margin: 1rem auto;
   border-radius: 15px;
   transition: transform 0.5s;
+  box-shadow: 10px 10px 5px black;
+}
+video {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 15px;
+  transition: transform 0.5s;
+  box-shadow: 10px 10px 5px black;
 }
 
 img:hover, video:hover { transform: scale(1.05); }
